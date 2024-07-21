@@ -32,7 +32,12 @@ const App = () => {
         </div>
       </div>
       <div className="car-section">
+<<<<<<< HEAD
         <h1>Recommended Used Cars For You</h1>
+=======
+        <h1>Welcome</h1>
+        <h2>Recommended Used Cars For You</h2>
+>>>>>>> 07866875bd4a28c16e15bfa47b11b51be7c9c412
         <div className="car-list">
           {usedCarData.map(car => (
             <CarCard
