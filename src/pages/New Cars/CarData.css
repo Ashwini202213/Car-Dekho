@@ -1,0 +1,13 @@
+.newBrand-wrapper{
+    border: 1px solid #e9e9e9 ;
+    margin: 20px;
+    border-radius: 13px;
+    box-shadow: 2px;
+
+}
+.newBrand-wrapper h2{
+    margin-left: 22px;
+    margin-top: 20px;
+    font-size: 23px;
+
+}

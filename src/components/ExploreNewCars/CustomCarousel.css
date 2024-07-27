@@ -1,0 +1,68 @@
+.custom-carousel {
+    border: 1px solid #e9e9e9;
+    border-radius: 17px;
+    position: relative;
+    overflow: hidden;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.custom-carousel h2 {
+    margin-left: 29px;
+    font-size: 23px;
+    padding-top: 10px;
+}
+
+.custom-carousel .tabs {
+    margin-left: 20px;
+}
+
+.carousel-container .btn {
+    background-color: none;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-color: #f75d34;
+    color: #f75d34;
+    font-weight: 700;
+}
+
+.carousel-container .bottom-btn {
+    border: none;
+    background-color: white;
+    margin-left: 9px;
+    font-size: 15px;
+    color: #f75d34;
+    font-weight: 700;
+}
+
+.carousel-container {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+
+.carousel-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.card {
+    width: 275px;
+}
+
+.carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1000;
+}
+
+.carousel-button.prev {
+    left: 10px;
+}
+
+.carousel-button.next {
+    right: 10px;
+}
