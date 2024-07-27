@@ -8,7 +8,7 @@ import CarRecommender from '../../components/HomeComponents/CarRecommender/CarRe
 import './HomePage.css'
 function HomePage() {
   return (
-    <div>
+    <div className='parent-div'>
           <CarCarousel/>
     
     <header className="App-header">
