@@ -2,7 +2,7 @@ import React from "react";
 import CarServiceCard from "../Common/CarServiceCard";
 import Row from "react-bootstrap/esm/Row";
 import Container from "react-bootstrap/esm/Container";
-import { newlyLauchedCars } from '../../data/CarServiceData';
+import { newlyLauchedCars } from '../../../data/CarServiceData';
 
 export default function NewlyLaunched() {
     return (
@@ -18,8 +18,8 @@ export default function NewlyLaunched() {
                         name={car.name}
                         price={car.price}
                         offer={car.offer}
-                        // component={car.component}
-                        link={car.link}       
+                        component={car.component}
+                        // link={car.link}       
                     />
                 ))}
             </Row>

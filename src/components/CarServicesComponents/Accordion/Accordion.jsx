@@ -2,7 +2,7 @@ import React from "react";
 import AccordionData from "./AccordionData";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import FAQ from '../../assets/images/carService/FAQ.svg'
+import FAQ from '../../../assets/images/carService/FAQ.svg'
 
 export default function Accordion() {
     return (

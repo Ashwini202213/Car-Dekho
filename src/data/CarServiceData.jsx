@@ -1,8 +1,8 @@
-import { Link } from "react-router-dom";
-// import Arrow from "../components/Common/Arrow";
-// import Button from "../components/Common/Button";
+// import { Link } from "react-router-dom";
+import Arrow from "../components/CarServicesComponents/Common/Arrow";
+import Button from "../components/CarServicesComponents/Common/Button";
 // import CarServiceHistory from "../pages/Car services/carServiceHistory";
-import '../pages/CarServices/carServices.css';
+// import '../../pages/CarServices/carServices.css';
 
 export const newlyLauchedCars = [{
     id: 1,
@@ -11,8 +11,8 @@ export const newlyLauchedCars = [{
     price: '₹299',
     image: '../../src/assets/images/carService/carServiceHistory.jpg',
     offer: '₹500 40% off',
-    // component: <Button name='Get report' className='btn' arrow={<Arrow />} />
-    link: <Link to='/CarServiceHistory'>Get reports</Link>
+    component: <Button name='Get report' className='btn' arrow={<Arrow />} />
+    // link: <Link to='/CarServiceHistory'>Get reports</Link>
 },
 {
     id: 2,
@@ -21,8 +21,8 @@ export const newlyLauchedCars = [{
     price: '₹199',
     image: '../../src/assets/images/carService/RTORecordService.jpg',
     offer: '₹299 33% off',
-    // component: <Button name='Get report' className='btn' arrow={<Arrow />} />
-    link: <Link to='/carServiceHistory'>Get reports</Link>
+    component: <Button name='Get report' className='btn' arrow={<Arrow />} />
+    // link: <Link to='/carServiceHistory'>Get reports</Link>
 
 },
 {
@@ -32,8 +32,8 @@ export const newlyLauchedCars = [{
     price: '₹1800',
     image: '../../src/assets/images/carService/carServiceHistory.jpg',
     offer: '₹2000 10% off',
-    // component: <Button name='Get report' className='btn' arrow={<Arrow />} />
-    link: <Link to='/carServiceHistory'>Get reports</Link>
+    component: <Button name='Get report' className='btn' arrow={<Arrow />} />
+    // link: <Link to='/carServiceHistory'>Get reports</Link>
 
 }]
 

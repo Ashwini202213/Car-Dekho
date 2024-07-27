@@ -4,7 +4,7 @@ import Col from "react-bootstrap/esm/Col";
 import Row from "react-bootstrap/esm/Row";
 import ReviewCard from "./ReviewCard";
 import MyCollapse from "../Common/Collapse";
-import { reviewCard } from "../../data/CarServiceData";
+import { reviewCard } from "../../../data/CarServiceData";
 
 export default function ReviewRating() {
     return (
