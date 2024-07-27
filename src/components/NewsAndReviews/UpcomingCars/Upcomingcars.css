@@ -1,0 +1,96 @@
+.shadow15 {
+    margin-top: 50px;
+    height: 520px;
+    width: 300px;
+    padding: 10px;
+    border-radius: 9px;
+    box-shadow: 0 6px 16px 0 rgb(140 152 164 / 25%);
+  }
+  
+  .gsc-col-xs-12 .upcoming-cars {
+    font-size: 20px;
+    margin: 0;
+    margin-bottom: 10px;
+   
+  }
+  
+  .contenthold {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .gsc-ta-content {
+    position: relative;
+    width: 100%;
+  }
+  
+  .clerifixrow {
+    margin: 0px;
+    display: contents;
+    flex-wrap: wrap;
+  }
+  li.col-6{
+    width: 100%;
+  }
+  .clerifixrow .col-5{
+    width: 100%;
+  }
+  .col-5 {
+    width:100%;
+    background: #fff;
+    border-radius: 8px;
+    list-style: none;
+    /* flex: 0 0 50%; */
+    padding: 0px;
+  }
+  .col-4 {
+    width: 100%;
+    position: absolute;
+    flex: 0 0 33.3333%;
+  }
+  
+  .hover {
+    cursor: pointer;
+    width: 35%;
+    height: auto;
+    border-radius: 8px
+  }
+  
+  .col-8 {
+    padding: 1px;
+    width:100%;
+    margin-left: 110px;
+    flex: 0 0 66.6667%;
+  }
+  
+  .col-8 a {
+    color: #24272c;
+    font-weight: 400;
+  }
+  
+  .col-8 span {
+    font-weight: 600;
+  }
+  .price .launch{
+      font-size: 14px;
+      color: rgba(36, 39, 44, 0.5);  
+}
+  .viewall-Upcoming-Cars {
+    color: #f75d34;
+    cursor: pointer;
+    margin: 0px 10px 10px 10px;
+    font-size: 14px;
+  }
+  
+  .viewall-Upcoming-Cars .link:hover {
+    color: #f75d34;
+  }
+  
+  .viewall-Upcoming-Cars a {
+    color: #f75d34;
+    font-weight: bolder;
+    cursor: pointer;
+  }
+
+  
+  

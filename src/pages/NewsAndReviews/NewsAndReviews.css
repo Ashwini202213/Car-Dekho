@@ -1,0 +1,82 @@
+.main {
+    padding: 20px;
+  }
+  .news-and-reviews h1 {
+    font-size: 28px;
+    margin: 20px 0;
+    font-weight: 550;
+    color: #24272c;
+  }
+  .news-item {
+    width: 900px;
+    list-style-type: none;
+    margin-bottom: 15px;
+  }
+  .news-image {
+    width: 340px;
+    height: 230px;
+    object-fit: cover;
+    cursor: pointer;
+  }
+  
+  .news-content a {
+    color: #24272c;
+    cursor: pointer;
+    font-weight: inherit;
+    font-size: 17px;
+    text-decoration: none;
+  
+  }
+  .card-body{
+    margin-left: 40px;
+  }
+  .card-body h2{
+    font-size: 17px;
+    cursor: pointer;
+  }
+  
+   div.authcard {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  
+   div.authorThumbName {
+    background: #fafafa;
+    border-radius: 100%;
+    float: left;
+    font-size: 20px;
+    height: 36px;
+    overflow: hidden;
+    padding-top: 3px;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: middle;
+    width: 36px;
+  }
+  
+  div.name {
+    font-size: 13px;
+    line-height: 2.38;
+    margin-bottom: 1px;
+    font-family: sans-serif;
+    margin-left: 10px;
+  }
+  .datelist {
+    font-size: 13px;
+    margin-left: 10px;
+  }
+  .date-group ul {
+    padding-left: 0rem;
+  }
+  .content-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  
+  .date-group-column {
+    display: flex;
+    flex-direction: column;
+  }

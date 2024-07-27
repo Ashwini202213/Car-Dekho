@@ -1,0 +1,6 @@
+li.page-item {
+    margin-left: calc(var(--bs-border-width)* 10);
+}
+button.page-link {
+    color: black;
+}

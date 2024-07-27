@@ -1,0 +1,96 @@
+
+.col-11 .box-clerifix {
+    background: #fff;
+    border: 1px solid rgba(36, 39, 44, .1);
+    border-radius: 16px;
+    /* margin: 20px 19px; */
+    padding: 0;
+    margin: 20px 0 29px;
+  }
+  
+  div.col-11 {
+    width: 100%;
+    float: left;
+    position: relative;
+  }
+  
+  .imgactive {
+    border-radius: 16px 16px 0 0;
+    box-shadow: 0 6px 16px 0 rgb(140 152 164 / 25%);
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    text-align: center;
+    width: 100%;
+    border: 0;
+    opacity: 1;
+  }
+  
+  .subs {
+    border-radius: 0 0 16px 16px;
+    text-align: center;
+    background: #fff;
+    font-size: 19px;
+    text-align: center;
+    margin-top: 9px;
+    font-weight: 500;
+  }
+  
+  .formdata {
+    margin-top: 25px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .inputfield {
+    max-width: 380px;
+    margin-top: 25px;
+    position: relative;
+  }
+/*   
+  .inputfield label {
+    width: calc(100% - 46px);
+    font-size: 14px;
+    font-weight: 400;
+    left: -11px;
+    transition: all .4s ease;
+    color: rgba(36, 39, 44, .5);
+    pointer-events: none;
+    position: absolute;
+    top: 12px;
+    cursor: default;
+  } */
+  
+  .inputfield .email-input {
+    width: 90%;
+    font-size: small;
+  padding: 10px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  }
+ 
+  
+  .btnsubmit {
+    margin-top: 9px;
+    background: #f75d34;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-align: center;
+    text-transform: none;
+    overflow: visible;
+    font: inherit;
+    width: 90%;
+    margin-left: 0px;
+  }
+  .updates {
+    margin-top: 0px;
+    font-size: 12px;
+    font-family: roboto, Sans-Serif, Arial;
+  }

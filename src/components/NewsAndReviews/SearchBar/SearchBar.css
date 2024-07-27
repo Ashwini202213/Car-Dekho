@@ -1,0 +1,68 @@
+.search-bar {
+  position: relative;
+  width: 75%;
+}
+
+.search-bar input {
+  display: inline-block;
+  overflow: visible;
+  width: 64%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.suggestions {
+  position: absolute; /* Change to absolute positioning */
+  top: 100%; /* Position it just below the input field */
+  left: 0;
+  text-align: left;
+  width: 64%;
+  max-height: 178px;
+  overflow-y: scroll;
+  background: #fff;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, .3);
+  border-radius: 0 0 8px 8px;
+  z-index: 1; /* Ensure it is above other elements */
+}
+
+.suggestions .header {
+  padding-left: 12px;
+  padding-bottom: 0;
+  font-weight: bolder;
+  color: #24272c;
+  cursor: text;
+  border-bottom: 1px solid #fafafa;
+}
+
+.suggestions .suggestion-item {
+  margin: 0;
+  padding-left: 12px;
+  font-size: 14px;
+  color: #24272c;
+  cursor: pointer;
+  line-height: 2.5;
+  transition: background-color 0.3s ease;
+}
+
+.suggestions .suggestion-item:hover {
+  background-color: #f0f0f0;
+}
+
+.search-btn {
+  width: 300px;
+  margin-left: 20px;
+  background: #f75d34;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  height: 50px;
+  margin-bottom: 10px;
+  text-align: center;
+  font: inherit;
+  overflow: visible;
+  text-transform: none;
+  box-sizing: border-box;
+}
