@@ -1,17 +1,12 @@
 import React, { useState } from 'react';
-// import SearchNewBrand from '../../components/SearchNewBrand';
 import SearchNewBrand from "../../components/ExploreNewCars/SearchNewBrand"
-// import { carLogos } from '../../data/data';
 import {carLogos} from "../../data/ExploreNewCarsData/data"
-// import { carsByPrice } from '../../data/data';
 import { carsByPrice } from '../../data/ExploreNewCarsData/data';
-// import NewCarLogo from '../../components/NewCarLogo';
 import NewCarLogo from "../../components/ExploreNewCars/NewCarLogo"
 import NewCarsPrice from '../../components/ExploreNewCars/NewCarsPrice';
 import SearchNewCars from '../../components/ExploreNewCars/SearchNewCars';
 import CarsCarousel from '../../components/ExploreNewCars/CarsCarousel';
 import "./CarData.css"
-// import "./CustomCarousel.css"
 
 
 function CarData() {
