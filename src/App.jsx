@@ -13,6 +13,7 @@ const App = () => {
          
 
          <ExploreNewCars/>
+         
        </div>
 
   );
