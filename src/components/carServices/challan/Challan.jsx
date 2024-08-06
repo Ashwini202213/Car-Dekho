@@ -5,7 +5,7 @@ import avatar from '../../../assets/images/carService/avatar.svg'
 import nearby from '../../../assets/images/carService/nearby.svg'
 import Row from "react-bootstrap/Row";
 import Col from 'react-bootstrap/Col';
-import LogInModal from "../Modal/LogInModal";
+import LogInModal from "../modal/LogInModal";
 
 
 export default function Challan() {

@@ -1,8 +1,8 @@
 import React from "react";
-import CarServiceCard from "../Common/CarServiceCard";
+import CarServiceCard from "../common/CarServiceCard";
 import Row from "react-bootstrap/esm/Row";
 import Container from "react-bootstrap/esm/Container";
-import { newlyLauchedCars } from '../../../data/CarServiceData';
+import { newlyLauchedCars } from '../../../assets/data/CarServiceData';
 
 export default function NewlyLaunched() {
     return (

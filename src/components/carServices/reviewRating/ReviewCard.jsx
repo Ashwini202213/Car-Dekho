@@ -1,5 +1,5 @@
 import React from "react";
-import Star from "../Common/Star";
+import Star from "../common/Star";
 import Row from "react-bootstrap/esm/Row";
 
 function ReviewCard({ name, detail, review }) {

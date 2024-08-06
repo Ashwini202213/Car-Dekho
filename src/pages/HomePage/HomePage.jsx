@@ -1,5 +1,5 @@
 import React from 'react'
-import { newCarData, usedCarData } from '../../data/carsData';
+import { newCarData, usedCarData } from '../../assets/data/carsData';
 
 import CarCarousel from '../../components/carousel/CarCarousel'
 import CarCard from '../../components/CarList/CarCard'

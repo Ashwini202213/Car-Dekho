@@ -1,7 +1,7 @@
 import React from "react";
 import CustomNote from './CustomNote'
 import Col from "react-bootstrap/Col";
-import VenderModal from "../Modal/VenderModal";
+import VenderModal from "../modal/VenderModal";
 
 export default function PleaseNote() {
     return (

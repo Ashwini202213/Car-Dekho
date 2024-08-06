@@ -3,8 +3,8 @@ import Rating from "./Rating";
 import Col from "react-bootstrap/esm/Col";
 import Row from "react-bootstrap/esm/Row";
 import ReviewCard from "./ReviewCard";
-import MyCollapse from "../Common/Collapse";
-import { reviewCard } from "../../../data/CarServiceData";
+import MyCollapse from "../common/Collapse";
+import { reviewCard } from "../../../assets/data/CarServiceData";
 
 export default function ReviewRating() {
     return (

@@ -1,4 +1,4 @@
-import Arrow from "../Common/Arrow";
+import Arrow from "../common/Arrow";
 import CustomModal from "./CustomModal";
 
 export default function VenderModal() {

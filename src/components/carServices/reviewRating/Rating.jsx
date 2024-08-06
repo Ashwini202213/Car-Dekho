@@ -1,5 +1,5 @@
 import ReviewCard from "./ReviewCard";
-import Star from "../Common/Star";
+import Star from "../common/Star";
 import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/esm/Container";
 

@@ -1,6 +1,6 @@
 import React from "react";
 import promise from '../../../assets/images/carService/promise.svg';
-import CarServiceCard from "../Common/CarServiceCard";
+import CarServiceCard from "../common/CarServiceCard";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/esm/Row";
 

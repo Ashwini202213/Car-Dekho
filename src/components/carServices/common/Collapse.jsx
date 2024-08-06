@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Collapse from 'react-bootstrap/Collapse';
-import ReviewCard from '../ReviewRating/ReviewCard';
+import ReviewCard from '../reviewRating/ReviewCard';
 import Arrow from './Arrow';
 
 function MyCollapse() {
