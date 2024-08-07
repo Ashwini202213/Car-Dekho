@@ -1,0 +1,114 @@
+.select-container {
+    position: relative;
+    bottom: 180px;
+    /* border-right: 1px solid black; */
+    display: inline-block;
+    background-color: white;
+    border-radius: 7px 0 0 7px;
+    width: auto; 
+    margin-left: 20px;
+  }
+  .car-banner-container {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.car-banner-image {
+  width: 100%;
+  height: auto;
+}
+  .car-banner-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+  
+  .car-banner-image {
+    width: 100%;
+    height: auto;
+  }
+  .input-wrapper {
+    display: flex;
+    align-items: center;
+  }
+
+  .select-inputCarBudget{
+    width: 230px;
+    padding: 20px;
+    height: 70px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    outline: none;
+    border: none;
+  }
+  
+  .select-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    z-index: 1;
+    background-color: white;
+    max-height: 150px; 
+    overflow-y: auto; 
+  }
+  
+  .select-vehicle-container {
+    position: relative;
+    border-left: 1px solid #DEDEF0;
+    display: inline-block;
+    bottom: 180px;
+    background-color:white ;
+    border-radius: 0 10px 10px 0;
+    width: auto; 
+    /* margin-left: 20px; */
+  }
+  .input-wrapper {
+    display: flex;
+    align-items: center;
+  }
+
+
+  .select-input {
+    /* width: 100%; */
+    width: 200px;
+    padding: 20px;
+    height: 70px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 0px 7px 7px 0;
+    outline: none;
+    border: none;
+  }
+
+  .select-button {
+    padding: 13px 12px;
+    margin-left: 8px; 
+    margin-right: 10px;
+    background-color: #f75d34;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    width: 200px;
+  }
+  
+  .select-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    z-index: 1;
+    background-color: white;
+    max-height: 150px; 
+    overflow-y: auto; 
+  }
+  

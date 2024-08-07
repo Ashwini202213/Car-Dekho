@@ -1,7 +1,8 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
+
 import React from 'react';
 // import './App.css';
-import HomePage from './pages/HomePage/HomePage';
+import HomePage from './pages/home-page/HomePage';
+import ExploreNewCars  from "./pages/new-cars/ExploreNewCars"
 
 const App = () => {
   return (
@@ -9,6 +10,10 @@ const App = () => {
           
         
          <HomePage/>
+         
+
+         <ExploreNewCars/>
+         
        </div>
 
   );
