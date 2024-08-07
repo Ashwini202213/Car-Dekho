@@ -1,6 +1,5 @@
 
 import React from 'react';
-// import './App.css';
 import HomePage from './pages/home-page/HomePage';
 import ExploreNewCars  from "./pages/new-cars/ExploreNewCars"
 
