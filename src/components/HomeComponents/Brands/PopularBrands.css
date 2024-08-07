@@ -1,0 +1,38 @@
+
+.popular-brands {
+    padding: 20px;
+    background: #f9f9f9;
+  }
+  
+  .brand-list {
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+  }
+  
+  .brand-card {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    width: calc(16.66% - 10px); /* 6 cards per row, with spacing */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .brand-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .view-all-brands {
+    display: block;
+    margin-top: 10px;
+    color: #ff5722;
+    text-decoration: none;
+  }
+  
+  .view-all-brands:hover {
+    text-decoration: underline;
+  }
+  
