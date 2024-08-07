@@ -1,8 +1,8 @@
 
 import React from 'react';
 import './App.css';
-import HomePage from './pages/HomePage/HomePage';
-import ExploreNewCars  from "./pages/New Cars/ExploreNewCars"
+import HomePage from './pages/home-page/HomePage';
+import ExploreNewCars  from "./pages/new-cars/ExploreNewCars"
 
 const App = () => {
   return (
