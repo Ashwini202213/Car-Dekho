@@ -1,7 +1,10 @@
 import React, { useState, useRef, useEffect } from 'react';
+// import "./SelectCarModel.css"
+// import "./SelectVehicle.css"
 import "./BannerForm.css"
-import {carTypes} from '../../../assets/data/exploreNewCarsData/data'
-
+// import { carTypes } from '../../../data/ExploreNewCarsData/data';
+// import {carTypes} from "../../src/assets/data/explore_cardata/data"
+import {carTypes} from "../../../../src/assets/data/explore_cardata/data"
 const SelectVehicle = () => {
     const [inputValue, setInputValue] = useState('');
     const [selectedOption, setSelectedOption] = useState('');

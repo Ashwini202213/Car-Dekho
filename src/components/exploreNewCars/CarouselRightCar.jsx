@@ -3,7 +3,7 @@ import Card from 'react-bootstrap/Card';
 import './CustomCarousel.css';
 import Button from 'react-bootstrap/Button';
 // import Slider from "react-slick";
-function CustomCarousel({ cars }) {
+function CarouselRightCar({ cars }) {
 
     const firstCars = cars.slice(0,4)
     return (
@@ -17,21 +17,21 @@ function CustomCarousel({ cars }) {
                         <Card.Body>
                             <Card.Title>{car.name}</Card.Title>
                             <Card.Text>{car.price}</Card.Text>
-                            <Button className='cardBtn-class'variant="none" >{car.btnText}</Button>{' '}
+                            <Button className='cardBtn-class' variant="none">View All Offers</Button>
                         </Card.Body>
                     </Card>
                     </div>
                 ))}
             {/* </Slider> */}
             </div>
-            <button className='bottom-btn'>View All Cars Under 5 Lakh</button>
+            <button className='bottom-btn'>View All SUV Cars</button>
 
         </div>
     );
 }
 
 
-export default CustomCarousel;
+export default CarouselRightCar;
 
 
 

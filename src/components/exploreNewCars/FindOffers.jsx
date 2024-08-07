@@ -2,12 +2,12 @@ import React, { useState } from 'react';
 import { Card, Button, Collapse } from 'react-bootstrap';
 import "./NewCarLogo.css";
 
-function NewCarLogo({ cars }) {
+function FindOffers({ cars }) {
   const [isOpen, setIsOpen] = useState(false);
   // First 12 cars
-  const firstTwelveCars = cars.slice(0, 12);
+  const firstTwelveCars = cars.slice(0, 6);
   // Remaining cars
-  const remainingCars = cars.slice(12);
+  const remainingCars = cars.slice(6,18);
 
   const toggle = () => setIsOpen(!isOpen);
   return (
@@ -50,4 +50,4 @@ function NewCarLogo({ cars }) {
   );
 }
 
-export default NewCarLogo;
+export default FindOffers;

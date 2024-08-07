@@ -3,35 +3,43 @@ import Card from 'react-bootstrap/Card';
 import './CustomCarousel.css';
 import Button from 'react-bootstrap/Button';
 // import Slider from "react-slick";
-function CustomCarousel({ cars }) {
+function CarousNewlyLaunch({ cars }) {
 
-    const firstCars = cars.slice(0,4)
+    const firstCars = cars.slice(0, 4)
     return (
         <div className='carousel-container'>
             <div className="carousel-content" >
-               {/* <Slider {...settings}> */}
+                {/* <Slider {...settings}> */}
                 {firstCars.map((car) => (
                     <div key={car.id}>
-                    <Card className='card' >
-                        <Card.Img variant="top" src={car.image} />
-                        <Card.Body>
-                            <Card.Title>{car.name}</Card.Title>
-                            <Card.Text>{car.price}</Card.Text>
-                            <Button className='cardBtn-class'variant="none" >{car.btnText}</Button>{' '}
-                        </Card.Body>
-                    </Card>
+                        <Card className='card' style={{ border: "none" }} >
+                            <Card.Img variant="top" src={car.image} />
+                            <Card.Body className='newlyLaunch-body'>
+                                <Card.Title className='text'>{car.name}</Card.Title>
+                                <Card.Text className='price'>
+                                    {car.price}
+                                    <strike>
+                                    {car.olderPrice}
+                                    </strike>
+                                    <span>
+                                    {car.discount}
+                                    </span>
+                                   </Card.Text>
+                                <Button className='newlyLanch-btn' variant="none">Get Report</Button>
+                            </Card.Body>
+                        </Card>
                     </div>
                 ))}
-            {/* </Slider> */}
+                {/* </Slider> */}
             </div>
-            <button className='bottom-btn'>View All Cars Under 5 Lakh</button>
+            {/* <button className='bottom-btn'>View All Cars Under 5 Lakh</button> */}
 
         </div>
     );
 }
 
 
-export default CustomCarousel;
+export default CarousNewlyLaunch;
 
 
 

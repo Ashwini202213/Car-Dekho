@@ -1,6 +1,9 @@
 import React, { useState, useRef, useEffect } from 'react';
+// import './SelectCarBudget.css'; 
 import "./BannerForm.css"
-import { carBudget } from '../../../assets/data/exploreNewCarsData/data';
+// import { carBudget } from '../../../data/ExploreNewCarsData/data';
+// import {carBudget} from "../../src/assets/data/explore_cardata/data"
+import {carBudget} from "../../../../src/assets/data/explore_cardata/data"
 
 const SelectCarBudget = () => {
   const [inputValue, setInputValue] = useState('');
