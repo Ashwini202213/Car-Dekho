@@ -2,8 +2,8 @@ import React from 'react'
 import Img from "../../assets/images/newCars/banner/newcar_banner.jpg"
 import Img1 from "../../assets/images/newCars/banner/AutoPortal-CarDekho-Adapt.jpg"
 import "./CarBanner.css"
-import SelectCarBudget from "../../components/explorNewCars/form/SelectCarBudget"
-import SelectVehicle from "../../components/explorNewCars/form/SelectVehicle"
+import SelectCarBudget from "../../components/exploreNewCars/form/SelectCarBudget"
+import SelectVehicle from "../../components/exploreNewCars/form/SelectVehicle"
 
 function CarBanner() {
 

@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import SearchNewBrand from "../../components/explorNewCars/SearchNewBrand"
+import SearchNewBrand from "../../components/exploreNewCars/SearchNewBrand"
 import {carLogos} from "../../assets/data/exploreNewCarsData/data"
 import {carsByPrice} from "../../assets/data/exploreNewCarsData/data"
-import NewCarLogo from "../../components/explorNewCars/NewCarLogo"
-import NewCarsPrice from '../../components/explorNewCars/NewCarsPrice';
-import SearchNewCars from '../../components/explorNewCars/SearchNewCars';
-import CarsCarousel from '../../components/explorNewCars/CarsCarousel';
+import NewCarLogo from "../../components/exploreNewCars/NewCarLogo"
+import NewCarsPrice from '../../components/exploreNewCars/NewCarsPrice';
+import SearchNewCars from '../../components/exploreNewCars/SearchNewCars';
+import CarsCarousel from '../../components/exploreNewCars/CarsCarousel';
 import "./CarData.css"
 
 

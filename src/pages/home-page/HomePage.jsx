@@ -2,10 +2,10 @@ import React from 'react'
 // import { newCarData, usedCarData } from '../../data/carsData';
 import {newCarData, usedCarData} from "../../assets/data/carsData"
 
-import CarCarousel from '../../components/homComponents/carousel/CarCarousel'
-import CarCard from '../../components/homComponents/carlist/CarCard'
-import PopularBrands from '../../components/homComponents/brands/PopularBrands'
-import CarRecommender from '../../components/homComponents/carRecommender/CarRecommender'
+import CarCarousel from '../../components/homeComponents/carousel/CarCarousel'
+import CarCard from '../../components/homeComponents/carlist/CarCard'
+import PopularBrands from '../../components/homeComponents/brands/PopularBrands'
+import CarRecommender from '../../components/homeComponents/carRecommender/CarRecommender'
 import './HomePage.css'
 function HomePage() {
   return (
