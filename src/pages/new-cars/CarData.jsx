@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 // import SearchNewBrand from '../../components/SearchNewBrand';
 import SearchNewBrand from "../../components/exploreNewCars/SearchNewBrand"
-import { carLogos } from '../../assets/data/explore_cardata/data';
+import { carLogos } from '../../assets/data/exploreNewCarsData/data';
 // import { carTypes } from '../../data/ExploreNewCarsData/data';
-import { carsByPrice } from '../../assets/data/explore_cardata/data';
+import { carsByPrice } from '../../assets/data/exploreNewCarsData/data';
 import NewCarLogo from '../../components/exploreNewCars/NewCarLogo';
 import NewCarsPrice from '../../components/exploreNewCars/NewCarsPrice';
 import SearchNewCars from '../../components/exploreNewCars/SearchNewCars';

@@ -1,6 +1,8 @@
 import React from 'react'
-import Img from "../../assets/images/Banner/newcar_banner.jpg"
-import Img1 from "../../assets/images/Banner/AutoPortal-CarDekho-Adapt.jpg"
+// import Img from "../../assets/images/Banner/newcar_banner.jpg"
+import Img from "../../assets/images/newCars/banner/newcar_banner.jpg"
+import Img1 from "../../assets/images/newCars/banner/AutoPortal-CarDekho-Adapt.jpg"
+// import Img1 from "../../assets/images/Banner/AutoPortal-CarDekho-Adapt.jpg"
 
 import "./CarBanner.css"
 // import SelectCarBudget from '../../components//Form/SelectCarBudget';
