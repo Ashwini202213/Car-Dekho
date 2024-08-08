@@ -1,11 +1,11 @@
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleChevronRight } from '@fortawesome/free-solid-svg-icons';
-import latestcar1 from '../../../assets/images/NewsAndReviews/latestcar1.jpg';
-import latestcar2 from '../../../assets/images/NewsAndReviews/latestcar2.jpg';
-import latestcar3 from '../../../assets/images/NewsAndReviews/latestcar3.jpg';
-import latestcar4 from '../../../assets/images/NewsAndReviews/latestcar4.jpg';
-import latestcar5 from '../../../assets/images/NewsAndReviews/latestcar5.jpg';
+import latestcar1 from '../../../assets/images/newsAndReviews/latestcar1.jpg';
+import latestcar2 from '../../../assets/images/newsAndReviews/latestcar2.jpg';
+import latestcar3 from '../../../assets/images/newsAndReviews/latestcar3.jpg';
+import latestcar4 from '../../../assets/images/newsAndReviews/latestcar4.jpg';
+import latestcar5 from '../../../assets/images/newsAndReviews/latestcar5.jpg';
 
 const LatestCars = ()=>{
     return(

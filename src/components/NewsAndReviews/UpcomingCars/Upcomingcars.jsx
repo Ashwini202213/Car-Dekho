@@ -1,13 +1,13 @@
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleChevronRight } from '@fortawesome/free-solid-svg-icons';
-import upcomingcar1 from '../../../assets/images/NewsAndReviews/upcomingcar1.jpg';
-import upcomingcar2 from '../../../assets/images/NewsAndReviews/upcomingcar2.jpg';
-import upcomingcar3 from '../../../assets/images/NewsAndReviews/upcomingcar3.jpg';
-import upcomingcar4 from '../../../assets/images/NewsAndReviews/upcomingcar4.jpg';
-import upcomingcar5 from '../../../assets/images/NewsAndReviews/upcomingcar5.jpg';
+import upcomingcar1 from '../../../assets/images/newsAndReviews/upcomingcar1.jpg';
+import upcomingcar2 from '../../../assets/images/newsAndReviews/upcomingcar2.jpg';
+import upcomingcar3 from '../../../assets/images/newsAndReviews/upcomingcar3.jpg';
+import upcomingcar4 from '../../../assets/images/newsAndReviews/upcomingcar4.jpg';
+import upcomingcar5 from '../../../assets/images/newsAndReviews/upcomingcar5.jpg';
 
-const Upcomingcars = () => {
+const UpcomingCars = () => {
     return(
     <div className='gsc-col-xs-12'>
     <section className='shadow15'>
@@ -104,4 +104,4 @@ const Upcomingcars = () => {
     )
   };
 
-export default Upcomingcars;
+export default UpcomingCars;

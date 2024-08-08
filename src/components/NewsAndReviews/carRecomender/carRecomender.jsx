@@ -1,17 +1,17 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleDown } from '@fortawesome/free-solid-svg-icons';
-import manthinking from '../../../assets/images/NewsAndReviews/manthinking.png';
-import circle from '../../../assets/images/NewsAndReviews/circle.svg';
-import Seats from '../../../assets/images/NewsAndReviews/Seats.svg';
-import Brand from '../../../assets/images/NewsAndReviews/Brand.svg';
-import Budget from '../../../assets/images/NewsAndReviews/Budget.svg';
-import Mileage from '../../../assets/images/NewsAndReviews/Mileage.svg';
-import Feature from '../../../assets/images/NewsAndReviews/Feature.svg';
-import question from '../../../assets/images/NewsAndReviews/question.svg';
-import star from '../../../assets/images/NewsAndReviews/star.svg';
-import smalldot from '../../../assets/images/NewsAndReviews/smalldot.svg';
-import Recommenderlogo from '../../../assets/images/NewsAndReviews/Recommenderlogo.svg';
+import manthinking from '../../../assets/images/newsAndReviews/manthinking.png';
+import circle from '../../../assets/images/newsAndReviews/circle.svg';
+import Seats from '../../../assets/images/newsAndReviews/Seats.svg';
+import Brand from '../../../assets/images/newsAndReviews/Brand.svg';
+import Budget from '../../../assets/images/newsAndReviews/Budget.svg';
+import Mileage from '../../../assets/images/newsAndReviews/Mileage.svg';
+import Feature from '../../../assets/images/newsAndReviews/Feature.svg';
+import question from '../../../assets/images/newsAndReviews/question.svg';
+import star from '../../../assets/images/newsAndReviews/star.svg';
+import smalldot from '../../../assets/images/newsAndReviews/smalldot.svg';
+import Recommenderlogo from '../../../assets/images/newsAndReviews/Recommenderlogo.svg';
 
 const CarRecomender = () => {
   return (

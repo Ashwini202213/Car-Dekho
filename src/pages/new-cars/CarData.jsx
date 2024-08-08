@@ -15,10 +15,10 @@ function CarData() {
 
   return (
     <div>
-      <NewCarsPrice />
+      <NewCarsPrice/>
       <div className='newBrand-wrapper'>
         <h2 >Search new cars by brand</h2>
-        <SearchNewBrand activeTab={activeTab} setActiveTab={setActiveTab} />
+        <SearchNewBrand activeTab={activeTab} setActiveTab={setActiveTab}/>
         <div>
           {activeTab === 'default' && <NewCarLogo cars={carLogos.slice(0,24)}/>}
           {activeTab === 'upcoming' && <NewCarLogo cars={carLogos.slice(25,32)} />}

@@ -1,17 +1,18 @@
 import React, { useState, useEffect } from 'react';
-import CarRecomender from '../../components/NewsAndReviews/carRecomender/carRecomender';
-import Subscribe_banner from '../../components/NewsAndReviews/subscribe_banner/subscribe_banner';
-import SearchBar from '../../components/NewsAndReviews/SearchBar/SearchBar';
-import dummyNews from '../../data/dummyNews';
-import Upcomingcars from '../../components/NewsAndReviews/UpcomingCars/Upcomingcars';
-import LatestCars from '../../components/NewsAndReviews/LatestCars/LatestCars';
+import CarRecomender from '../../components/newsAndReviews/carRecomender/CarRecomender';
+import SubscribeBanner from '../../components/newsAndReviews/subscribeBanner/SubscribeBanner';
+import SearchBar from '../../components/newsAndReviews/searchBar/SearchBar';
+import dummyNews from '../../assets/data/newsAndReviews/dummyNews';
+import UpcomingCars from '../../components/newsAndReviews/upcomingCars/UpcomingCars';
+import LatestCars from '../../components/newsAndReviews/latestCars/LatestCars';
+import Pagination from '../../components/newsAndReviews/pagination/Pagination';
 import './NewsAndReviews.css';
-import '../../components/NewsAndReviews/carRecomender/carRecomender.css';
-import '../../components/NewsAndReviews/subscribe_banner/subscribe_banner.css';
-import '../../components/NewsAndReviews/UpcomingCars/Upcomingcars.css';
-import '../../components/NewsAndReviews/LatestCars/LatestCars.css';
-import '../../components/NewsAndReviews/pagination/PaginationComponent.css';
-import PaginationComponent from '../../components/NewsAndReviews/pagination/PaginationComponent';
+import '../../components/newsAndReviews/carRecomender/CarRecomender.css';
+import '../../components/newsAndReviews/subscribeBanner/SubscribeBanner.css';
+import '../../components/newsAndReviews/upcomingCars/UpcomingCars.css';
+import '../../components/newsAndReviews/latestCars/LatestCars.css';
+import '../../components/newsAndReviews/pagination/Pagination.css';
+
 
 const NewsAndReviews = () => {
   const [news, setNews] = useState([]);
@@ -74,7 +75,7 @@ const NewsAndReviews = () => {
               <ul>
                 {groupedNews[date].map((article, index) => (
                   <React.Fragment key={index}>
-                    <li className="news-item">
+                    <li className="car-news-item">
                       <div className="card mb-3" >
                         <div className="row g-0">
                           <div className="col-md-4">
@@ -104,11 +105,11 @@ const NewsAndReviews = () => {
           ))}
         </div>
         <div className='gsc-col-xs-12'>
-          <LatestCars />
-          <Upcomingcars />
-          <Subscribe_banner />
+          <LatestCars/>
+          <UpcomingCars />
+          <SubscribeBanner />
         </div>
-        <PaginationComponent
+        <Pagination
           currentPage={currentPage}
           totalPages={Math.ceil(filteredNews.length / newsPerPage)}
           onPageChange={handlePageChange}

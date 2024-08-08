@@ -1,8 +1,8 @@
 import React from "react"
-import subscribe_banner from '../../../assets/images/NewsAndReviews/subscribe_banner.png'
+import subscribe_banner from '../../../assets/images/newsAndReviews/subscribe_banner.png'
 
 
-const Subscribe_banner = () => {
+const SubscribeBanner = () => {
     return (
         <div className='col-11'>
             <div className='box-clerifix'>
@@ -34,4 +34,4 @@ const Subscribe_banner = () => {
         </div>
     )
 };
-export default Subscribe_banner;
+export default SubscribeBanner;
