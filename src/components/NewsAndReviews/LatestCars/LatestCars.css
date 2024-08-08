@@ -48,7 +48,7 @@
   
   .hover {
     cursor: pointer;
-    width: 35%;
+    width: 100%;
     height: auto;
     border-radius: 8px
   }
