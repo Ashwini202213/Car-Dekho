@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { Link } from 'react-router-dom';
 import BrandCard from './BrandCard';
 import './PopularBrands.css';
 
@@ -21,7 +22,8 @@ const PopularBrands = () => {
           <BrandCard key={index} logo={brand.logo} name={brand.name} />
         ))}
       </div>
-      <a href="#all-brands" className="view-all-brands">View All Brands</a>
+      {/* <a href="#all-brands" className="view-all-brands">View All Brands</a> */}
+      <Link to='exploreNewCars'>View All Brands</Link>
     </div>
   );
 };

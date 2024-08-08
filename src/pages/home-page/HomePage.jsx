@@ -1,4 +1,5 @@
 import React from 'react'
+import "../new-cars/CarData.css"
 // import { newCarData, usedCarData } from '../../data/carsData';
 import {newCarData, usedCarData} from "../../assets/data/carsData"
 
@@ -44,7 +45,10 @@ function HomePage() {
         ))}
       </div>
     </div>
+    <div className='carData-carousel'>
+
     <PopularBrands />
+    </div>
     <CarRecommender/>
 
     </div>
