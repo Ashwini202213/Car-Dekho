@@ -1,21 +1,14 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
+
 import React from 'react';
-import { newCarData, usedCarData } from './data/carsData';
-import CarCard from './components/CarList/CarCard';
-import './App.css';
-import CarCarousel from './components/carousel/CarCarousel';
-// import PopularBrands from './components/PopularBrands';
-// import CarRecommender from './components/CarRecommender';
+import HomePage from './pages/home-page/HomePage';
+import ExploreNewCars  from "./pages/new-cars/ExploreNewCars"
 
 const App = () => {
   return (
     <div className="App">
-   
-
-    <CarCarousel/>
-    
-      <header className="App-header">
+          
         
+<<<<<<< HEAD
       </header>
       <div className="car-section">
       <h3>The Most Searched Cars </h3>
@@ -51,6 +44,14 @@ const App = () => {
       {/* <PopularBrands /> */}
       {/* <CarRecommender/> */}
     </div>
+=======
+         <HomePage/>
+         
+
+         <ExploreNewCars/>
+         
+       </div>
+>>>>>>> 98f0230afc06225015657e295c7cd1063db5717d
 
   );
 };
@@ -61,26 +62,3 @@ export default App;
 
 
 
-// import './App.css'
-// import { Container, Row, Col } from 'react-bootstrap';
-// import CarCarousel from './components/carousel/CarCarousel';
-// import SearchForm from './components/carousel/SearchForm';
-
-// function App() {
-  
-
-//   return (
-//     <Container fluid className="p-0">
-//       <Row>
-//         <Col md={4} className="p-0">
-//           <SearchForm />
-//         </Col>
-//         <Col md={8} className="p-0">
-//           <CarCarousel />
-//         </Col>
-//       </Row>
-//     </Container>
-//   );
-// }
-
-// export default App
