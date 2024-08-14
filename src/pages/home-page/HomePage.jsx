@@ -11,12 +11,15 @@ import './HomePage.css'
 function HomePage() {
   return (
     <div className='parent-div'>
+      <div className='carData-carousel'>
           <CarCarousel/>
+
+      </div>
     
     <header className="App-header">
       
     </header>
-    <div className="car-section">
+    <div className="carData-carousel">
     <h3>The Most Searched Cars </h3>
       <div className="car-list">
         {newCarData.map(car => (
@@ -30,7 +33,7 @@ function HomePage() {
         ))}
       </div>
     </div>
-    <div className="car-section">
+    <div className="carData-carousel">
       <h2>Recommended Used Cars For You</h2>
       <div className="car-list">
         {usedCarData.map(car => (
@@ -49,7 +52,10 @@ function HomePage() {
 
     <PopularBrands />
     </div>
+    <div className='carData-carousel'>
     <CarRecommender/>
+
+    </div>
 
     </div>
   )
